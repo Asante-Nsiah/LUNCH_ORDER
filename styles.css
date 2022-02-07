@@ -1,0 +1,168 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: #e06126;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#home{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+.foodpic{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.trainee{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    top: 250px;
+    font-size: 25px;
+}
+
+.staff{
+   
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    top: 250px;
+    font-size: 25px;
+    
+}
+
+.mainOrder{
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    background-color:#e06126 ;
+    font-weight: 300;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    
+}
+.mainsection{
+    display: flex;
+    justify-content: center;
+    
+}
+.sectionA{
+    border: 1px solid #e06126;
+    border-radius: 10px;
+   
+    padding: 10px;
+}
+
+.picdiv{
+    border-radius: 50%;
+    border: 1px solid #e06126;
+    height: 150px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.sectionB {
+    padding: 10px;
+    border: 1px solid #e06126;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.sectionC{
+    padding: 10px;
+    border: 1px solid #e06126;
+    border-radius: 10px ;
+    margin-left: 10px;
+}
+
+.details{
+  padding: 5px;
+   
+    
+}
+
+.menu{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#submit{
+    cursor: pointer;
+   padding: 8px;
+   margin: 10px;
+   width: 80px;
+   background-color: #e06126;
+   color: white;
+   border-radius: 5px;
+   border-style: none;
+}
+
+#btn{
+    padding: 8px;
+    background-color:#e06126 ;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 80px;
+    cursor: pointer;
+}
+.form{
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 530px) {
+    .staff{
+        position: absolute;
+        top: 420px;
+        left: 30%;
+    }
+    .trainee{
+        position: absolute;
+        top:550px ;
+        left: 30%;
+    }
+
+.sectionB{
+    position: absolute;
+    top: 480px;
+    padding: 3px;
+}
+    
+    
+}
+
+@media screen and (min-width: 200px) and ( max-width:400px  ){
+    #home{
+        position: absolute;
+        top: 85px;
+        display: flex; 
+    }
+
+}
+@media screen and (max-width: 540px){
+    .sectionB{
+        position: absolute;
+        top: 480px;
+        padding: 3px;
+}
+    
+}
